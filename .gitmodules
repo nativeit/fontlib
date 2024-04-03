@@ -1,0 +1,69 @@
+[submodule "omnibus"]
+	path = omnibus
+	url = https://github.com/googlefonts/omnibus.git
+[submodule "fonts/Inconsolata"]
+	path = fonts/Inconsolata
+	url = https://github.com/googlefonts/Inconsolata.git
+[submodule "fonts/Roboto"]
+	path = fonts/Roboto
+	url = https://github.com/googlefonts/Roboto.git
+[submodule "utils/fontmake"]
+	path = utils/fontmake
+	url = https://github.com/googlefonts/fontmake
+[submodule "utils/gftools"]
+	path = utils/gftools
+	url = https://github.com/googlefonts/gftools
+[submodule "fonts/opensans"]
+	path = fonts/opensans
+	url = https://github.com/googlefonts/opensans
+[submodule "fonts/RobotoMono"]
+	path = fonts/RobotoMono
+	url = https://github.com/googlefonts/RobotoMono
+[submodule "fonts/roboto-serif"]
+	path = fonts/roboto-serif
+	url = https://github.com/googlefonts/roboto-serif
+[submodule "fonts/josefinsans"]
+	path = fonts/josefinsans
+	url = https://github.com/googlefonts/josefinsans
+[submodule "fonts/staatliches"]
+	path = fonts/staatliches
+	url = https://github.com/googlefonts/staatliches
+[submodule "fonts/Crimson"]
+	path = fonts/Crimson
+	url = https://github.com/googlefonts/Crimson
+[submodule "fonts/Playfair"]
+	path = fonts/Playfair
+	url = https://github.com/googlefonts/Playfair
+[submodule "fonts/Libre-Franklin"]
+	path = fonts/Libre-Franklin
+	url = https://github.com/googlefonts/Libre-Franklin
+[submodule "fonts/abel"]
+	path = fonts/abel
+	url = https://github.com/googlefonts/abel
+[submodule "fonts/Michroma-font"]
+	path = fonts/Michroma-font
+	url = https://github.com/googlefonts/Michroma-font
+[submodule "fonts/Asap"]
+	path = fonts/Asap
+	url = https://github.com/googlefonts/Asap
+[submodule "fonts/lato-source"]
+	path = fonts/lato-source
+	url = https://github.com/latofonts/lato-source
+[submodule "fonts/Bebas-Neue"]
+	path = fonts/Bebas-Neue
+	url = https://github.com/dharmatype/Bebas-Neue
+[submodule "fonts/plex"]
+	path = fonts/plex
+	url = https://github.com/IBM/plex
+[submodule "fonts/monoid"]
+	path = fonts/monoid
+	url = https://github.com/larsenwork/monoid
+[submodule "fonts/inter"]
+	path = fonts/inter
+	url = https://github.com/rsms/inter
+[submodule "fonts/barlow"]
+	path = fonts/barlow
+	url = https://github.com/jpt/barlow
+[submodule "fonts/Iosevka"]
+	path = fonts/Iosevka
+	url = https://github.com/be5invis/Iosevka
