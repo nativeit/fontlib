@@ -1,0 +1,217 @@
+<section class="l-section">
+
+  <div class="u-padd-top u-padd-top-double@sm u-bg-archivo u-c-archivo">
+
+    <!-- Intro -->
+
+    <div class="l-container u-push-btm u-push-btm-double@sm">
+      <h2 class="u-h1@sm u-ff-archivo u-push-btm-quarter">Archivo</h2>
+      <h3 class="u-h6 u-ff-archivo u-push-btm-none">from Héctor Gatti</h3>
+    </div>
+
+    <!-- Variants -->
+
+    <div class="l-container u-push-btm u-push-btm-double@sm">
+      <h3 class="u-ff-archivo u-h4 u-push-btm-half">Variants</h3>
+      <p class="u-ff-manuale u-push-btm-none">
+        Archivo is a neo-grotesque font designed for headlines and body text, both in print and on screen. It is reminiscent of the sans-serif typefaces designed between the late-19th and mid-20th centuries, such as Akzidenz Grotesk, Venus, and Helvetica.
+      </p>
+      <p class="u-ff-manuale u-push-btm-none u-ti-double">
+        Archivo is currently available in 8 styles (Regular, Medium, Semibold and Bold plus Italics).
+      </p>
+    </div>
+
+    <div class="l-container l-container--lg u-push-btm u-push-btm-double@sm">
+      <div class="g-row">
+        <div class="g g-12 g-6@sm u-push-btm u-push-btm-none@sm">
+          <div class="u-padd-top-half u-border-top-1 u-border-top-black u-border-top-solid">
+            <p class="u-ff-archivo u-fw-700 u-lh-1 u-fz-sm u-push-btm-none">400</p>
+            <p class="u-ff-archivo u-h1 u-h2@sm u-h1@md u-fw-400 u-push-btm-quarter u-pull-lft-2">Regular</p>
+            <p class="u-ff-archivo u-fw-700 u-lh-1 u-fz-sm u-push-btm-none">500</p>
+            <p class="u-ff-archivo u-h1 u-h2@sm u-h1@md u-fw-500 u-push-btm-quarter u-pull-lft-2">Medium</p>
+            <p class="u-ff-archivo u-fw-700 u-lh-1 u-fz-sm u-push-btm-none">600</p>
+            <p class="u-ff-archivo u-h1 u-h2@sm u-h1@md u-fw-600 u-push-btm-quarter u-pull-lft-2">Semibold</p>
+            <p class="u-ff-archivo u-fw-700 u-lh-1 u-fz-sm u-push-btm-none">700</p>
+            <p class="u-ff-archivo u-h1 u-h2@sm u-h1@md u-fw-700 u-push-btm-none u-pull-lft-2">Bold</p>
+          </div>
+        </div>
+        <div class="g g-12 g-6@sm">
+          <div class="u-padd-top-half u-border-top-1 u-border-top-black u-border-top-solid">
+            <p class="u-ff-archivo u-fw-700 u-lh-1 u-fz-sm u-push-btm-none">400i</p>
+            <p class="u-ff-archivo u-h1 u-h2@sm u-h1@md u-fw-400 u-fs-italic u-push-btm-quarter">Regular</p>
+            <p class="u-ff-archivo u-fw-700 u-lh-1 u-fz-sm u-push-btm-none">500i</p>
+            <p class="u-ff-archivo u-h1 u-h2@sm u-h1@md u-fw-500 u-fs-italic u-push-btm-quarter">Medium</p>
+            <p class="u-ff-archivo u-fw-700 u-lh-1 u-fz-sm u-push-btm-none">600i</p>
+            <p class="u-ff-archivo u-h1 u-h2@sm u-h1@md u-fw-600 u-fs-italic u-push-btm-quarter">Semibold</p>
+            <p class="u-ff-archivo u-fw-700 u-lh-1 u-fz-sm u-push-btm-none">700i</p>
+            <p class="u-ff-archivo u-h1 u-h2@sm u-h1@md u-fw-700 u-fs-italic u-push-btm-none">Bold</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="l-container u-push-btm u-push-btm-double@sm">
+      <p class="u-ff-manuale u-push-btm-none">
+        Flat and sharp terminals, together with a uniform stroke width, deliver excellent performance at small sizes and great impact in headlines.
+      </p>
+    </div>
+
+    <div class="l-container l-container--lg u-push-btm@sm">
+      <div class="g-row">
+        {% for terminal in archivo.terminals %}
+        <div class="g g-6 g-3@md">
+          <div class="u-padd-top-half u-padd-top@sm u-border-top-1 u-border-top-black u-border-top-solid u-push-btm">
+            <div class="embed embed-4:3">
+              <svg class="i i-{{ terminal.name }} embed_svg u-fill-text-archivo">
+                <use xlink:href="images/sprite.svg#{{ terminal.name }}"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="l-container u-push-btm u-push-btm-double@sm">
+      <p class="u-ff-manuale u-push-btm-none">
+        In the Italic style, some characters (such as the a, f, and g) take on distinctive forms that differ from most neo-grotesque fonts. Together with the condensed variant, Archivo Narrow, the family covers a wide spectrum of widths and weights that make it a versatile, all-terrain classic.
+      </p>
+    </div>
+
+    <div class="l-container l-container--lg u-push-btm u-push-btm-double@sm">
+      <div class="u-padd-top-half u-border-top-1 u-border-top-black u-border-top-solid">
+        <p class="u-ff-archivo u-fw-700 u-lh-1 u-fz-sm u-push-btm-none u-tt-uppercase">Italic styles</p>
+        <p class="archivo-italics u-ff-archivo u-fs-italic u-fw-700 u-padd-btm u-padd-btm-double@md u-push-btm-none u-pull-top-half">afg</p>
+      </div>
+    </div>
+
+    <!-- Process -->
+
+    <div class="l-container u-push-btm u-push-btm-double@sm">
+      <h3 class="u-ff-archivo u-h4 u-push-btm-half">Process</h3>
+      <p class="u-ff-manuale u-push-btm-none">
+        During the initial design phase, Archivo Narrow and Archivo Black were adapted from an earlier typeface, Chivo, using charts specifying exact proportions between height and width. Several characters (b, g, q, r, E, F, L, Q, R) were given further adjustment as the project progressed.
+      </p>
+    </div>
+
+    <div class="l-container l-container--lg u-push-btm u-push-btm-double@sm">
+      <div class="u-padd-top-half u-border-top-1 u-border-top-black u-border-top-solid">
+        <p class="u-ff-archivo u-fw-700 u-lh-1 u-fz-sm u-push-btm-quarter u-tt-uppercase">x-height</p>
+        <p class="archivo-ascendants u-ff-archivo u-push-btm-none">
+          <span class="u-fw-400">b</span><span class="u-fw-400">g</span><span class="u-fw-500">q</span><span class="u-fw-500">r</span><span class="u-fw-600">E</span><span class="u-fw-600">F</span><span class="u-fw-700">L</span><span class="u-fw-700">Q</span><span class="u-fw-700">R</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="l-container u-push-btm u-push-btm-double@sm">
+      <p class="u-ff-manuale u-push-btm-none">
+        In 2012, we released eight styles (Narrow, Regular, Bold, and Black, plus Italics) for a set of basic characters, but the family was later expanded to support the Adobe Latin 3 character set. Our goal was to create a complete suite of type, so we also developed a non-condensed version following the same principles that guided the design of Archivo Narrow. This project began in 2015 and yielded two intermediate weights a year later.
+      </p>
+    </div>
+
+    <div class="l-container l-container--lg u-push-btm-half@sm">
+      <div class="g-row">
+        <div class="g g-12 g-6@sm g-3@md">
+          <div class="u-padd-top-half u-border-top-1 u-border-top-black u-border-top-solid">
+            <p class="u-ff-archivo u-lh-13 u-fw-400 u-fz-sm">
+              Archivo delivers excellent performance at small sizes and great impact in headlines due to its flat, sharp terminals and uniform stroke width.
+            </p>
+          </div>
+        </div>
+        <div class="g g-12 g-6@sm g-3@md">
+          <div class="u-padd-top-half u-border-top-1 u-border-top-black u-border-top-solid">
+            <p class="u-ff-archivo u-lh-13 u-fw-500 u-fz-sm">
+              Archivo delivers excellent performance at small sizes and great impact in headlines due to its flat, sharp terminals and uniform stroke width.
+            </p>
+          </div>
+        </div>
+        <div class="g g-12 g-6@sm g-3@md">
+          <div class="u-padd-top-half u-border-top-1 u-border-top-black u-border-top-solid">
+            <p class="u-ff-archivo u-lh-13 u-fw-600 u-fz-sm">
+              Archivo delivers excellent performance at small sizes and great impact in headlines due to its flat, sharp terminals and uniform stroke width.
+            </p>
+          </div>
+        </div>
+        <div class="g g-12 g-6@sm g-3@md">
+          <div class="u-padd-top-half u-border-top-1 u-border-top-black u-border-top-solid">
+            <p class="u-ff-archivo u-lh-13 u-fw-700 u-fz-sm">
+              Archivo delivers excellent performance at small sizes and great impact in headlines due to its flat, sharp terminals and uniform stroke width.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="l-container u-push-btm u-push-btm-double@sm">
+      <p class="u-ff-manuale u-push-btm-none">
+        Our main challenge in designing the Regular variant of Archivo was to preserve the characteristics that made Archivo Narrow and Archivo Black two of Omnibus-Type’s most successful designs. The goal was to create something valuable without compromising ease of use, so the team paid special attention to programming the menus where users select different styles of Archivo.
+      </p>
+      <p class="u-ff-manuale u-push-btm-none u-ti-double">
+        Over the course of its design, Archivo was constantly tested and analysed to ensure that its spacing would be even and harmonious. Even though it was based on Chivo, an earlier design, Archivo’s technical features and performance resulted in original and distinctive features.
+      </p>
+    </div>
+
+    <div class="l-container l-container--lg u-push-btm">
+      <div class="g-row">
+        <div class="g g-12 g-6@sm">
+          <div class="u-padd-top-half u-border-top-1 u-border-top-black u-border-top-solid">
+            <p class="u-h2 u-h3@sm u-h1@md u-ff-archivo u-lh-1 u-fw-400">
+              {% include "modules/archivo-alphabet.html" %}
+            </p>
+          </div>
+        </div>
+        <div class="g g-12 g-6@sm">
+          <div class="u-padd-top-half u-border-top-1 u-border-top-black u-border-top-solid">
+            <p class="u-h2 u-h3@sm u-h1@md u-ff-archivo u-lh-1 u-fw-500">
+              {% include "modules/archivo-alphabet.html" %}
+            </p>
+          </div>
+        </div>
+        <div class="g g-12 g-6@sm">
+          <div class="u-padd-top-half u-border-top-1 u-border-top-black u-border-top-solid">
+            <p class="u-h2 u-h3@sm u-h1@md u-ff-archivo u-lh-1 u-fw-600">
+              {% include "modules/archivo-alphabet.html" %}
+            </p>
+          </div>
+        </div>
+        <div class="g g-12 g-6@sm">
+          <div class="u-padd-top-half u-border-top-1 u-border-top-black u-border-top-solid">
+            <p class="u-h2 u-h3@sm u-h1@md u-ff-archivo u-lh-1 u-fw-700">
+              {% include "modules/archivo-alphabet.html" %}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    {% set parameters = {'family': 'Archivo'} %}
+    
+    <!-- Variable -->
+    {% include "shared/variable.html" %}
+
+    <!-- Applications -->
+
+    <div class="l-container u-padd-btm-double">
+      <h3 class="u-ff-archivo u-h4 u-push-btm-half">Applications</h3>
+      <p class="u-ff-manuale u-push-btm-none">
+        Archivo can be used for composing headlines, short snippets, and pull quotes for magazines and other serial publications. In these contexts, Archivo would pair well with body text typefaces such as Rosario, Slabo, and Unna.
+      </p>
+    </div>
+
+    <!-- Origins -->
+  
+    <div class="l-container u-push-btm u-push-btm-double@sm">
+      <h3 class="u-ff-archivo u-h4 u-push-btm-half">Origins</h3>
+      <p class="u-ff-manuale u-push-btm-none">
+        Both Archivo and Archivo Narrow are adapted from Chivo, carrying its spirit and style, but the spacing and kerning of these fonts will also work alongside many other, widely available sans serifs.
+      </p>
+      <p class="u-ff-manuale u-push-btm-none u-ti-double">
+         With the Archivo family, we began by searching for a harmonious meeting point where the neo-grotesque style of Chivo met the demands and restrictions of document fidelity. After joining Archivo and Archivo Narrow with Archivo Black, the result is a technically and stylistically coherent super-family with a set of highly dynamic styles that vary by width and weight.
+      </p>
+    </div>
+
+    {% include "shared/column-footer.html" %}
+
+  </div>
+
+</section>

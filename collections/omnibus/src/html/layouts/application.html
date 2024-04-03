@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="keywords" content="{{ keywords }}">
+    <meta name="apple-mobile-web-app-title" content="{{ title }}">
+    <meta name="application-name" content="{{ title }}">
+    <base href="{{ url }}">
+
+    <meta property="og:type" content="{{ type }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ url }}">
+    <meta property="og:locale" content="{{ locale }}">
+    <meta property="og:image" content="{{ image }}">
+    <meta property="fb:app_id" content="{{ fbid }}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <meta name="article:author" content="{{ author }}">
+    <meta name="twitter:creator" content="{{ twitter }}">
+    <meta name="twitter:site" content="{{ twitter }}">
+    <meta name="twitter:url" content="{{ url }}">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="{{ image }}">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Roboto, Roboto Mono -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Mono&display=swap" rel="stylesheet">
+
+    <!-- Asap Condensed -->
+    <link href="https://fonts.googleapis.com/css?family=Asap+Condensed:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+    <!-- Archivo -->
+    <link href="https://fonts.googleapis.com/css?family=Archivo:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+    <!-- Faustina -->
+    <link href="https://fonts.googleapis.com/css?family=Faustina:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+    <!-- Manuale -->
+    <link href="https://fonts.googleapis.com/css?family=Manuale:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+    <!-- Saira -->
+    <link href="https://fonts.googleapis.com/css?family=Saira:100,200,300,400,500,600,700,800,900|Saira+Semi+Condensed:100,200,300,400,500,600,700,800,900|Saira+Condensed:100,200,300,400,500,600,700,800,900|Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    {% include "shared/app-icons.html" %}
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+    {% block javascript %}
+      <script src="js/main.js"></script>
+    {% endblock %}
+  </body>
+</html>

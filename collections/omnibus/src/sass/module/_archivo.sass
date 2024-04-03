@@ -1,0 +1,87 @@
+//============================================
+// Archivo
+//============================================
+
+// Italics
+//============================================
+
+.archivo-italics
+  font-size: 16rem
+  line-height: 15rem
+
+  +mq($bp-xs)
+    font-size: 21rem
+    line-height: 19rem
+
+  +mq($bp-sm)
+    font-size: 31rem
+    line-height: 28rem
+
+  +mq($bp-md)
+    font-size: 43rem
+    line-height: 38rem
+
+  +mq($bp-lg)
+    font-size: 49rem
+    line-height: 44rem
+
+
+// Ascendants
+//============================================
+
+.archivo-ascendants
+  position: relative
+  margin-bottom: 0
+  font-size: 4.4rem
+  line-height: 1
+
+  &::before,
+  &::after
+    content: ""
+    position: absolute
+    left: 0
+    width: 100%
+
+  &::before
+    top: 1.3rem
+    border-top: 0.1rem solid $color-text-archivo
+
+  &::after
+    bottom: 0.6rem
+    border-bottom: 0.1rem solid $color-text-archivo
+
+  +mq($bp-xs)
+    font-size: 6rem
+
+    &::before
+      top: 1.8rem
+
+    &::after
+      bottom: 1rem
+
+  +mq($bp-sm)
+    font-size: 8rem
+
+    &::before
+      top: 2.4rem
+
+    &::after
+      bottom: 1.2rem
+
+  +mq($bp-md)
+    font-size: 12rem
+
+    &::before
+      top: 3.8rem
+
+    &::after
+      bottom: 1.7rem
+
+  +mq($bp-lg)
+    font-size: 14rem
+
+    &::before
+      top: 4.3rem
+
+    &::after
+      bottom: 2.2rem
