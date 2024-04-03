@@ -64,3 +64,6 @@
 [submodule "fonts/Iosevka"]
 	path = fonts/Iosevka
 	url = https://github.com/be5invis/Iosevka
+[submodule "collections/omnibus"]
+	path = collections/omnibus
+	url = https://github.com/googlefonts/omnibus.git
